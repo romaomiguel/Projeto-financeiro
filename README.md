@@ -19,7 +19,8 @@ Uma aplicação web simples para calcular juros **simples** e **compostos**. O p
 - **CSS3**: Estilização e layout responsivo
 - **JavaScript**: Lógica de cálculo dos juros
 
----## Como Usar
+---
+## Como Usar
 
 1. Clone este repositório ou faça o download dos arquivos.
 2. Abra o arquivo `index.html` no navegador.
