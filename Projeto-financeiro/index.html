@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Simulador de Juros</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Simulador de Juros</h1>
+    
+    <form id="interest-form">
+      <label>
+        Valor Inicial (R$):
+        <input type="number" id="principal" placeholder="Ex: 1000" required>
+      </label>
+
+      <label>
+        Taxa de Juros (%):
+        <input type="number" id="rate" placeholder="Ex: 5" required>
+      </label>
+
+      <label>
+        Tempo (meses):
+        <input type="number" id="time" placeholder="Ex: 12" required>
+      </label>
+
+      <label>
+        Tipo de Juros:
+        <select id="interest-type">
+          <option value="simple">Simples</option>
+          <option value="compound">Compostos</option>
+        </select>
+      </label>
+
+      <button type="submit">Calcular</button>
+    </form>
+
+    <div id="result" class="hidden">
+      <h2>Resultado:</h2>
+      <p id="total"></p>
+      <p id="interest-earned"></p>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
